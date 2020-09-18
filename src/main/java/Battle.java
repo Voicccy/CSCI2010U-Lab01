@@ -32,18 +32,19 @@ public class Battle{
 	}
 	
 	//Methods
-	String getMonster1Name() {
-		return name1;
-	}
+
+	String getMonster1Name() { return name1; }
 	String getMonster2Name() {
 		return name2;
 	}
 	float getMonster1HP() {
 		return HP1;
 	}
-	float getMonster2HP() {
-		return HP2;
-	}
+	float getMonster2HP() { return HP2; }
+	float getMonster1Attack() { return attack1; }
+	float getMonster2Attack() { return attack2; }
+	float getMonster1Defense() { return defense1; }
+	float getMonster2Defense() { return defense2; }
 	
 	boolean isMonster1Dead(){
 		if(HP1<=0) {
